@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Кофейня "Jurio"</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #fdf6ec;
+      color: #4b3b2b;
+    }
+    header {
+      background: #6f4e37;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1350&q=80') no-repeat center;
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    h2 {
+      border-bottom: 2px solid #6f4e37;
+      padding-bottom: 5px;
+    }
+    .menu-item {
+      margin-bottom: 20px;
+    }
+    .menu-item strong {
+      display: block;
+      font-size: 1.2em;
+      color: #6f4e37;
+    }
+    footer {
+      background: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .menu-section {
+      margin-bottom: 40px;
+    }
+    .menu-header {
+      font-size: 1.5em;
+      color: #6f4e37;
+      margin-bottom: 10px;
+    }
+    .price {
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Кофейня "Jurio"</h1>
+  <nav>
+    <a href="#menu">Меню</a>
+    <a href="#about">О нас</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+</header>
+
+<div class="hero">
+  Добро пожаловать в мир ароматного кофе!
+</div>
+
+<div class="container">
+  <section id="menu">
+    <h2>🍽️ Меню кафе “Jurio”</h2>
+    <div class="menu-section">
+      <div class="menu-header">☕ Кофе и напитки</div>
+      <div class="menu-item">
+        <strong>Эспрессо</strong>
+        <span class="price">799 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Американо</strong>
+        <span class="price">899 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Капучино</strong>
+        <span class="price">1 099 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Латте</strong>
+        <span class="price">1 199 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Флет уайт</strong>
+        <span class="price">1 299 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Мокка</strong>
+        <span class="price">1 299 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Айс-латте</strong>
+        <span class="price">1 399 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Авторский кофе “Jurio”</strong>
+        <span class="price">1 499 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Чай (зелёный, чёрный, мятный)</strong>
+        <span class="price">799 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Бабл-ти (манго, клубника, виноград)</strong>
+        <span class="price">1 599 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Пепси / Кола / Миринда</strong>
+        <span class="price">499 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Асу (бутылка)</strong>
+        <span class="price">299 ₸</span>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-header">🥐 Выпечка</div>
+      <div class="menu-item">
+        <strong>Круассан классический</strong>
+        <span class="price">999 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Круассан с шоколадом</strong>
+        <span class="price">1 199 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Булочка с корицей</strong>
+        <span class="price">999 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Бейгл с сыром и зеленью</strong>
+        <span class="price">1 299 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Песочное печенье</strong>
+        <span class="price">599 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Панкейки с мёдом / шоколадом / ягодами</strong>
+        <span class="price">1 399 ₸</span>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-header">🍰 Десерты и торты</div>
+      <div class="menu-item">
+        <strong>Чизкейк Нью-Йорк</strong>
+        <span class="price">1 499 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Медовик</strong>
+        <span class="price">1 299 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Тирамису</strong>
+        <span class="price">1 599 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Макаруны (1 шт.)</strong>
+        <span class="price">499 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Пирожное картошка</strong>
+        <span class="price">899 ₸</span>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-header">🍦 Мороженое</div>
+      <div class="menu-item">
+        <strong>Ванильное / шоколадное (1 шарик)</strong>
+        <span class="price">799 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Стаканчик с топпингом</strong>
+        <span class="price">1 199 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Авторское мороженое Jurio</strong>
+        <span class="price">1 499 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Голландское мороженое (в стаканчике или рожке)</strong>
+        <span class="price">1 699 ₸</span>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-header">🍫 Фирменные десерты Jurio</div>
+      <div class="menu-item">
+        <strong>Медовый тост с мороженым</strong>
+        <span class="price">1 999 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Панкейки с шоколадным фонтаном</strong>
+        <span class="price">1 899 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Панкейки “Ягодный рай”</strong>
+        <span class="price">1 799 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Вулкан-шоколад (Шоколадный лава-кейк)</strong>
+        <span class="price">2 199 ₸</span>
+      </div>
+      <div class="menu-item">
+        <strong>Японские моти с кремом и чаем матча</strong>
+        <span class="price">1 699 ₸</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>О нас</h2>
+    <p>Мы — маленькая кофейня с большой любовью к качественному кофе. Наши бариста — настоящие мастера своего дела, и мы тщательно выбираем зерна для каждого напитка.</p>
+  </section>
+
+  <section id="contacts">
+    <h2>Контакты</h2>
+    <p>Адрес: ул. Площадь, 12, Кызылорда</p>
+    <p>Телефон: +7 7058097708</p>
+    <p>Время работы: Пн–Вс 8:00–22:00</p>
+  </section>
+</div>
+
+<footer>
+  &copy; 2025 Кофейня "Jurio"
+</footer>
+
+</body>
+</html>
